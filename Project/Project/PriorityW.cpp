@@ -51,7 +51,7 @@ void Priority_Queue:: display()
     if (frnt == NULL)
         cout<<"Your schedule is empty\n";
     else
-    {	cout<<"\nYour schedule is:\n";
+    {    cout<<"\nYour schedule is:\n";
         cout<<"Priority       Task\n";
         while(ptr != NULL)
         {
@@ -61,3 +61,4 @@ void Priority_Queue:: display()
         cout << endl;
     }
 }
+

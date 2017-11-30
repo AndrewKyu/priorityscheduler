@@ -10,6 +10,7 @@
 		1F2DEC781FCE69F000756236 /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DEC761FCE69F000756236 /* queue.cpp */; };
 		1F8B44B01FAB9C7800EABAFB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B44AF1FAB9C7800EABAFB /* main.cpp */; };
 		1FFB61C91FCFA594004EB1F1 /* ShortestJob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB61C71FCFA594004EB1F1 /* ShortestJob.cpp */; };
+		1FFB61CC1FCFA654004EB1F1 /* PriorityW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB61CA1FCFA654004EB1F1 /* PriorityW.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		1F8B44AF1FAB9C7800EABAFB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1FFB61C71FCFA594004EB1F1 /* ShortestJob.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShortestJob.cpp; sourceTree = "<group>"; };
 		1FFB61C81FCFA594004EB1F1 /* ShortestJob.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShortestJob.hpp; sourceTree = "<group>"; };
+		1FFB61CA1FCFA654004EB1F1 /* PriorityW.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityW.cpp; sourceTree = "<group>"; };
+		1FFB61CB1FCFA654004EB1F1 /* PriorityW.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PriorityW.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				1F2DEC771FCE69F000756236 /* queue.hpp */,
 				1FFB61C71FCFA594004EB1F1 /* ShortestJob.cpp */,
 				1FFB61C81FCFA594004EB1F1 /* ShortestJob.hpp */,
+				1FFB61CA1FCFA654004EB1F1 /* PriorityW.cpp */,
+				1FFB61CB1FCFA654004EB1F1 /* PriorityW.hpp */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				1F8B44B01FAB9C7800EABAFB /* main.cpp in Sources */,
 				1F2DEC781FCE69F000756236 /* queue.cpp in Sources */,
 				1FFB61C91FCFA594004EB1F1 /* ShortestJob.cpp in Sources */,
+				1FFB61CC1FCFA654004EB1F1 /* PriorityW.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
