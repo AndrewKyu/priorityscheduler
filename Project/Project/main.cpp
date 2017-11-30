@@ -14,6 +14,7 @@
 #include "queue.hpp"
 #include "ShortestJob.hpp"
 #include "PriorityW.hpp"
+#include "multilevelQueue.hpp"
 using namespace std;
 
 /*
@@ -115,6 +116,7 @@ int main()
         }
         else if (x == 5)
         {
+            doMultilevelQueue();
         }
         else if (x == 6)
         {
