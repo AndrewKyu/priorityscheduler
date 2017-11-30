@@ -12,6 +12,7 @@
 		1FFB61C91FCFA594004EB1F1 /* ShortestJob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB61C71FCFA594004EB1F1 /* ShortestJob.cpp */; };
 		1FFB61CC1FCFA654004EB1F1 /* PriorityW.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB61CA1FCFA654004EB1F1 /* PriorityW.cpp */; };
 		1FFB61CF1FCFA794004EB1F1 /* multilevelQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB61CD1FCFA794004EB1F1 /* multilevelQueue.cpp */; };
+		1FFB61D21FCFCE4D004EB1F1 /* roundrobin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB61D11FCFCE4D004EB1F1 /* roundrobin.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		1FFB61CB1FCFA654004EB1F1 /* PriorityW.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PriorityW.hpp; sourceTree = "<group>"; };
 		1FFB61CD1FCFA794004EB1F1 /* multilevelQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = multilevelQueue.cpp; sourceTree = "<group>"; };
 		1FFB61CE1FCFA794004EB1F1 /* multilevelQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = multilevelQueue.hpp; sourceTree = "<group>"; };
+		1FFB61D01FCFCD46004EB1F1 /* roundrobin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = roundrobin.hpp; sourceTree = "<group>"; };
+		1FFB61D11FCFCE4D004EB1F1 /* roundrobin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roundrobin.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				1FFB61CB1FCFA654004EB1F1 /* PriorityW.hpp */,
 				1FFB61CD1FCFA794004EB1F1 /* multilevelQueue.cpp */,
 				1FFB61CE1FCFA794004EB1F1 /* multilevelQueue.hpp */,
+				1FFB61D01FCFCD46004EB1F1 /* roundrobin.hpp */,
+				1FFB61D11FCFCE4D004EB1F1 /* roundrobin.cpp */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 				1F8B44B01FAB9C7800EABAFB /* main.cpp in Sources */,
 				1F2DEC781FCE69F000756236 /* queue.cpp in Sources */,
 				1FFB61C91FCFA594004EB1F1 /* ShortestJob.cpp in Sources */,
+				1FFB61D21FCFCE4D004EB1F1 /* roundrobin.cpp in Sources */,
 				1FFB61CC1FCFA654004EB1F1 /* PriorityW.cpp in Sources */,
 				1FFB61CF1FCFA794004EB1F1 /* multilevelQueue.cpp in Sources */,
 			);

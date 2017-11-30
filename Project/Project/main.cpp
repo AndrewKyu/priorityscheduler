@@ -15,14 +15,9 @@
 #include "ShortestJob.hpp"
 #include "PriorityW.hpp"
 #include "multilevelQueue.hpp"
+#include "roundrobin.hpp"
+#define MAX_TASK 10
 using namespace std;
-
-/*
- FCFS - make a queue
- Priority Weight - Priority queue
- Round Robin -
- 
- */
 
 
 int main()
@@ -32,7 +27,7 @@ int main()
     int numTask;
     string task;
     makeQueue FCFS;
-    
+    roundRobin rr;
     while (true)
     {
         // Menu
@@ -111,8 +106,7 @@ int main()
         }
         else if (x == 4)
         {
-            //test.rrScheduling();
-            ///priorityScheduling();
+            rr.roundrobinScheduler();
         }
         else if (x == 5)
         {
