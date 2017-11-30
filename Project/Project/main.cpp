@@ -12,6 +12,8 @@
 #include <string>
 //#include "scheduler.h"
 #include "queue.hpp"
+#include "ShortestJob.hpp"
+#include "PriorityW.hpp"
 using namespace std;
 
 /*
@@ -68,10 +70,43 @@ int main()
         }
         else if (x == 2)
         {
+            shortestjob sj;
+            sj.ShortestJobFirst();
         }
         else if (x == 3)
         {
-            //priorityScheduling();
+            string task;
+            int option, priority;
+            Priority_Queue priq;
+            do
+            {
+                cout<<"1.Insert into queue\n";
+                cout<<"2.Display queue\n";
+                cout<<"3.Quit\n";
+                cout<<"Enter your option : ";
+                cin>>option;
+                cin.ignore();
+                
+                switch(option)
+                {
+                    case 1:
+                        cout<<"Enter task name to be added in the queue : ";
+                        //cin>>task;
+                        getline(cin,task);
+                        cout<<"Enter its priority value : ";
+                        cin>>priority;
+                        priq.insert(task, priority);
+                        break;
+                    case 2:
+                        priq.display();
+                        break;
+                    case 3:
+                        break;
+                    default :
+                        cout<<"Not a option\n";
+                }
+            }
+            while(option != 3);
         }
         else if (x == 4)
         {
